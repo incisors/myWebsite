@@ -33,3 +33,7 @@ img.profile {
 .section-content {
     display: none;
 }
+
+.visible-section {
+    display: block;
+}
