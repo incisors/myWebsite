@@ -15,7 +15,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
-    text-align: center;
+    text-align: left;
 }
 
 nav {
@@ -38,11 +38,40 @@ nav a:hover {
     background-color: #555;
 }
 
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
 img.profile {
     width: 150px;
     height: auto;
     border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 2rem;
+}
+
+.header {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    color: #ffffff; 
+    text-align: center;
 }
