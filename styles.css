@@ -1,35 +1,21 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #f0f0f0;
-    background-color: #333;
+    color: #333;
+    background-color: #fff;
     margin: 0;
     padding: 0;
 }
 
-h1,
-h2,
-h3 {
-    color: #f0f0f0;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-img.profile {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-}
-
 .section {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
-.visible-section {
-    display: block;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
 }
 
 nav {
@@ -50,10 +36,4 @@ nav a {
 
 nav a:hover {
     background-color: #555;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
 }
