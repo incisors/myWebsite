@@ -1,14 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    color: #f0f0f0;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
 }
 
-h1, h2, h3 {
-    color: #333;
-}
-
-p {
-    margin: 0 0 1rem;
+h1,
+h2,
+h3 {
+    color: #f0f0f0;
 }
 
 ul {
@@ -26,26 +28,19 @@ img.profile {
     margin-bottom: 2rem;
 }
 
-.section h3 {
-    cursor: pointer;
-}
-
-.section-content {
-    display: none;
-}
-
 .visible-section {
     display: block;
 }
+
 nav {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #444;
     padding: 1rem;
 }
 
 nav a {
-    color: white;
+    color: #f0f0f0;
     text-decoration: none;
     margin: 0 1rem;
     padding: 0.5rem;
@@ -55,4 +50,10 @@ nav a {
 
 nav a:hover {
     background-color: #555;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
 }
