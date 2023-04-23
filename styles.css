@@ -75,3 +75,12 @@ img.profile {
     color: #ffffff; 
     text-align: center;
 }
+
+.moving-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('myphoto.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
