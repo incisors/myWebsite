@@ -1,8 +1,8 @@
 const movingIcon = document.getElementById('movingIcon');
 let xPosition = 0;
 let yPosition = 0;
-let xSpeed = 20;
-let ySpeed = 20;
+let xSpeed = 0.5;
+let ySpeed = 0.4;
 
 function moveIcon() {
     xPosition += xSpeed;
